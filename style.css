@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron:400,500');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('./background.jpg') no-repeat center top;
+    background-size: cover;
+    font-family: 'orbitron' ,serif;
+    font-size: 6rem;
+    font-weight: 500;
+    color: #dff9fbe9;
+    text-shadow:  0px 0px 10px #eee;
+}
+#todaysDate{
+    font-size: 4rem;
+    text-align: center;
+    word-spacing: 0.5rem;
+}
